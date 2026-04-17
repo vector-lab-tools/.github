@@ -14,7 +14,7 @@ instruments of their own.
 
 ## The family
 
-### Comparative instruments
+### Comparative tools
 
 Extensive instruments that compare across models. Currently the most
 mature; the single-model scopes are in early alpha.
@@ -51,7 +51,7 @@ graph TB
     M[Manifoldscope<br/><i>one manifold</i>]
   end
 
-  subgraph comparative["Comparative instruments (extensive)"]
+  subgraph comparative["Comparative tools (extensive)"]
     A[Manifold Atlas<br/><i>between models</i>]
     L[LLMbench<br/><i>between prose outputs</i>]
   end
