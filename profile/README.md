@@ -17,7 +17,7 @@ instruments of their own.
 ### Comparative instruments
 
 Extensive instruments that compare across models. Currently the most
-mature; the single-object scopes are in early alpha.
+mature; the single-model scopes are in early alpha.
 
 - **[Manifold Atlas](https://github.com/vector-lab-tools/manifold-atlas)** — between
   models at their output embeddings. Concept distance, negation gauge,
@@ -26,7 +26,7 @@ mature; the single-object scopes are in early alpha.
   the level of generated prose. Dual-panel close reading, annotation,
   logprobs, probability visualisation.
 
-### Single-object scopes (alpha)
+### Single-model scopes (alpha)
 
 Intensive instruments that open up a single object for inspection.
 
@@ -45,7 +45,7 @@ Intensive instruments that open up a single object for inspection.
 
 ```mermaid
 graph TB
-  subgraph scopes["Single-object scopes (intensive)"]
+  subgraph scopes["Single-model scopes (intensive)"]
     T[Theoryscope<br/><i>corpus</i>]
     V[Vectorscope<br/><i>model internals</i>]
     M[Manifoldscope<br/><i>one manifold</i>]
