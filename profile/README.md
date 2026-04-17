@@ -2,6 +2,8 @@
 
 A suite of research instruments for critical vector theory.
 
+**🌐 Website and map: [vector-lab-tools.github.io](https://vector-lab-tools.github.io)**
+
 Vector Lab is a family of tools that make the internal geometry of large
 language models, the comparative structure of embedding spaces, and the
 topography of theoretical corpora legible as objects of empirical and
