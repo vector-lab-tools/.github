@@ -1,6 +1,6 @@
 # Vector Lab
 
-A suite of research instruments for critical vector theory.
+A suite of vector methods for vector theory.
 
 **🌐 Website and map: [vector-lab-tools.github.io](https://vector-lab-tools.github.io)**
 
