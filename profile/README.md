@@ -46,14 +46,14 @@ Intensive instruments that open up a single object for inspection.
 ```mermaid
 graph TB
   subgraph scopes["Single-model scopes (intensive)"]
-    T[Theoryscope<br/><i>corpus</i>]
-    V[Vectorscope<br/><i>model internals</i>]
-    M[Manifoldscope<br/><i>one manifold</i>]
+    T["Theoryscope\ncorpus"]
+    V["Vectorscope\nmodel internals"]
+    M["Manifoldscope\none manifold"]
   end
 
   subgraph comparative["Comparative tools (extensive)"]
-    A[Manifold Atlas<br/><i>between models</i>]
-    L[LLMbench<br/><i>between prose outputs</i>]
+    A["Manifold Atlas\nbetween models"]
+    L["LLMbench\nbetween prose outputs"]
   end
 
   V -.provenance.-> M
