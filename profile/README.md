@@ -14,7 +14,19 @@ instruments of their own.
 
 ## The family
 
-### Single-object scopes
+### Comparative instruments
+
+Extensive instruments that compare across models. Currently the most
+mature; the single-object scopes are in early alpha.
+
+- **[Manifold Atlas](https://github.com/vector-lab-tools/manifold-atlas)** — between
+  models at their output embeddings. Concept distance, negation gauge,
+  hegemony compass, silence detector, agonism test, and more.
+- **[LLMbench](https://github.com/vector-lab-tools/LLMbench)** — between models at
+  the level of generated prose. Dual-panel close reading, annotation,
+  logprobs, probability visualisation.
+
+### Single-object scopes (alpha)
 
 Intensive instruments that open up a single object for inspection.
 
@@ -28,17 +40,6 @@ Intensive instruments that open up a single object for inspection.
 - **[Theoryscope](https://github.com/vector-lab-tools/theoryscope)** — a corpus of
   theoretical texts as navigable geometry. Renormalisation-group flow,
   eigendirections, fixed points, universality classes.
-
-### Comparative instruments
-
-Extensive instruments that compare across models.
-
-- **[Manifold Atlas](https://github.com/vector-lab-tools/manifold-atlas)** — between
-  models at their output embeddings. Concept distance, negation gauge,
-  hegemony compass, silence detector, agonism test, and more.
-- **[LLMbench](https://github.com/vector-lab-tools/LLMbench)** — between models at
-  the level of generated prose. Dual-panel close reading, annotation,
-  logprobs, probability visualisation.
 
 ## Map
 
@@ -68,11 +69,23 @@ graph TB
 
 ## Further reading
 
-The tools operationalise arguments developed across the vector theory
-writings. See the landing site at
-[vector-lab-tools.github.io](https://vector-lab-tools.github.io) for an annotated map,
-per-tool guides, and links to the published theoretical essays that each
-instrument answers to.
+The tools operationalise claims developed in the vector theory sequence on
+Stunlaw and the wider research programme. The essays are the conceptual
+statements; the tools are the empirical instruments.
+
+**Vector theory sequence (Stunlaw):** *The Vector Medium*, *Vector
+Theory*, *What Is Vector Space?*, *What Is the Manifold?*, *Generation
+Vector*, *What Is Theory Space?*, *Renormalising Theory*.
+
+**Books and longer work:** *Critical Theory and the Digital* (Bloomsbury,
+2014); *AI Critical Theory*, in progress; *Synthetic Media and
+Computational Capitalism*, AI & SOCIETY (2025).
+
+**Centre for Vector Media:** the Leverhulme bid develops the institutional
+and methodological frame within which Vector Lab operates.
+
+For an annotated reading guide and per-tool deep dives see
+[vector-lab-tools.github.io](https://vector-lab-tools.github.io).
 
 ---
 
