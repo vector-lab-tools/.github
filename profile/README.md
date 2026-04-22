@@ -17,7 +17,7 @@ instruments of their own.
 ### Comparative tools
 
 Extensive instruments that compare across models. Currently the most
-mature; the single-model scopes are in early alpha.
+mature; the single-model scopes are in beta.
 
 - **[Manifold Atlas](https://github.com/vector-lab-tools/manifold-atlas)** — between
   models at their output embeddings. Concept distance, negation gauge,
@@ -26,7 +26,7 @@ mature; the single-model scopes are in early alpha.
   the level of generated prose. Dual-panel close reading, annotation,
   logprobs, probability visualisation.
 
-### Single-model scopes (alpha)
+### Single-model scopes (beta)
 
 Intensive instruments that open up a single object for inspection.
 
