@@ -25,6 +25,11 @@ mature; the single-model scopes are in beta.
 - **[LLMbench](https://github.com/vector-lab-tools/LLMbench)** — between models at
   the level of generated prose. Dual-panel close reading, annotation,
   logprobs, probability visualisation.
+- **[Diffusion Atlas](https://github.com/vector-lab-tools/diffusion-atlas)**
+  *(in development)* — between diffusion image models at the level of
+  generative trajectories and compositional fidelity. Atlas register
+  (per-step latents, CFG sweeps, latent neighbourhoods) plus Bench
+  register (GenEval-style compositional scoring) in one instrument.
 
 ### Single-model scopes (beta)
 
@@ -52,8 +57,9 @@ graph TB
   end
 
   subgraph comparative["Comparative tools (extensive)"]
-    A["Manifold Atlas\nbetween models"]
+    A["Manifold Atlas\nbetween language models"]
     L["LLMbench\nbetween prose outputs"]
+    D["Diffusion Atlas\nbetween image models"]
   end
 
   V -.provenance.-> M
@@ -64,7 +70,7 @@ graph TB
   classDef scope fill:#1a1a1a,stroke:#d4af37,color:#f5f5f0,stroke-width:1px;
   classDef comp fill:#1a1a1a,stroke:#8b3a3a,color:#f5f5f0,stroke-width:1px;
   class T,V,M scope;
-  class A,L comp;
+  class A,L,D comp;
 ```
 
 ## Further reading
