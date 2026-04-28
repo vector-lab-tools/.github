@@ -26,7 +26,7 @@ mature; the single-model scopes are in beta.
   the level of generated prose. Dual-panel close reading, annotation,
   logprobs, probability visualisation.
 - **[Diffusion Atlas](https://github.com/vector-lab-tools/diffusionatlas)**
-  *(in development)* — between diffusion image models at the level of
+  *(alpha)* — between diffusion image models at the level of
   generative trajectories and compositional fidelity. Atlas register
   (per-step latents, CFG sweeps, latent neighbourhoods) plus Bench
   register (GenEval-style compositional scoring) in one instrument.
